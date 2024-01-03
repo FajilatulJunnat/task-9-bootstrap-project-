@@ -1,4 +1,20 @@
 body{
-    font-family: 'Poppins', sans-serif;
+font-family: 'Poppins', sans-serif;
 }
 
+.carousel-caption{
+    top: 15vw !important;
+   
+
+
+}
+.carousel-caption h1{
+    font-size: 4vw;
+}
+.carousel-caption p{
+    color:#F4F4F4 !important;
+}
+.carousel-caption button{
+    background-color: #289BDE !important;
+    border: none;
+}

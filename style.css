@@ -3,10 +3,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 .carousel-caption{
-    top: 15vw !important;
-   
-
-
+    top: 8.25rem !important;
 }
 .carousel-caption h1{
     font-size: 4vw;
@@ -17,4 +14,57 @@ font-family: 'Poppins', sans-serif;
 .carousel-caption button{
     background-color: #289BDE !important;
     border: none;
+}
+.carousel-inner{
+    background: #1D1D1D !important;
+    
+}
+@media  only screen and (min-width: 200px) and (max-width: 768px) { 
+    .carousel-caption{
+        top: 2.25rem !important;
+    }
+ }
+ @media  only screen and (min-width: 768px) and (max-width: 991px) { 
+    .carousel-caption{
+        top: 2.25rem !important;
+    }
+ }
+/*course */
+ .our{
+    width: 50%;
+
+ }
+ .courses-title{
+    width: 75%;
+   
+ }
+ @media  only screen and (min-width: 200px) and (max-width: 991px) {
+    .our{
+        width: 100%;
+        padding: 5vw;
+        font-size: 20px;
+    
+     }
+     .courses-title{
+        width: 100%;
+       
+     }
+  }
+/* card*/
+.image-card{
+    width:65%;
+}
+.pri{
+    font-size: 18px;
+}
+@media  only screen and (min-width: 200px) and (max-width: 768px) { 
+    .image-card{
+        width:100%;
+    }
+    .pri{
+        font-size: 20px;
+    }
+    .card-text{
+        font-size: 18px;
+    }
 }

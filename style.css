@@ -68,3 +68,9 @@ font-family: 'Poppins', sans-serif;
         font-size: 18px;
     }
 }
+.accordion-item{
+    margin: 20px 0 !important;
+    border: 2px solid rgb(231, 228, 228) !important;
+   
+    border-radius: 10px solid rgb(231, 228, 228) !important;
+}
